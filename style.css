@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.cards {
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.win {
+  color: #00ff00;
+}
+
+.lose {
+  color: #ff0000;
+}
